@@ -40,13 +40,11 @@ const questions = [
         name: "license",
         message: "Select a License",
         choices: ["MIT","Boost","Apache 2.0",]
-        //How many do i need? How to find license badge?
     },
     {
         type: "input",
         name: "github",
         message: "Enter GitHub username"
-        //need to process github username into a url
     },
     {
         type: "input",
